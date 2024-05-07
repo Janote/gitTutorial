@@ -1,0 +1,37 @@
+                                                    Tutorial Git
+
+Tenemos 3 etapas en Git:
+
+
+  Computador      | Stage       | Commit | Server
+usuario           |             |        | 
+archivo1          |             |        | 
+archivo2          |             |        | 
+                  |             |        | 
+                  |             |        | 
+
+nota: si borramos un archivo desde computador, tenemos que utilizar el comando git add ArchivoBorrado
+
+
+
+
+
+¿Qué es el staging?
+El staging es el lugar donde se guardan temporalmente los cambios, para luego ser llevados definitivamente al repositorio. 
+El repositorio es el lugar donde se guardan todos los registros de los cambios realizados a los archivos. ej : git . 
+
+
+Comandos que no sabia:
+git add: Adds files from my directory to the staging area.
+git status:  show modified files in working directory, staged for your next commit.
+git restore --stage : quits a file from staging area.
+git rm: sirve para eliminar directame
+git diff: muestras las lineas modificados de un archivo (difference)
+
+
+Branches: creas una rama de la principa;, modificas lo que  quieras, y luego reemplazas.
+
+Para modificar una rama se utiliza git checkout [nombre  a mover]
+
+Actualizar los cambios con git merge *nombre-de-la-rama*
+aa
